@@ -1,0 +1,21 @@
+.header-greeting {
+  font-size: 1rem;
+}
+
+.header-title {
+    font-size: 3rem;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-button button {
+  padding: 12px;
+  font: 400 1rem "open Sans", sans-serif;
+  text-transform: uppercase;
+  background-color: var(--main-txt-color);
+  border: none;
+}
+
+.header-button button a {
+  color: var(--main-bg-color);
+}
