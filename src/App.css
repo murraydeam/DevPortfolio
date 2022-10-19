@@ -13,7 +13,7 @@ html {
   width: 90vw;
 }
 .section {
-  margin: 25vh auto 0;
+  margin: 30vh auto 0;
   display: flex;
   flex-direction: column;
   align-items: center;
