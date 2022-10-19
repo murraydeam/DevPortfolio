@@ -2,6 +2,7 @@ import "./App.css";
 import Nav from './components/Nav/Nav'
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
+import Projects from './components/Projects/Projects'
 
 function Container() {
   return (
@@ -9,6 +10,7 @@ function Container() {
       <Nav />
       <Header />
       <Home />
+      <Projects />
     </div>
   );
 }

@@ -1,9 +1,11 @@
 import './header.css'
+
+
 const Header = () => {
   return (
     <div className="section">
       <div className="header-greeting">
-        <h4>Howdy, I'm Deandre! &#128512;</h4>
+        <h4>Howdy, I'm Deandre! 😎</h4>
       </div>
       <div className="header-title">
         <h2>Front End Developer</h2>

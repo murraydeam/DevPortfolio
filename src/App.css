@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
 :root {
-  --main-bg-color: #131516;
+  --main-bg-color: #313537;
   --main-txt-color: rgb(200, 195, 188);
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 .container {
   width: 80vw;
@@ -14,4 +19,36 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project .project-stack {
+  display: flex;
+  gap: 16px;
+}
+
+.stack-item {
+  background-color: aliceblue;
+  color: var(--main-bg-color);
+  padding: 0.5rem;
+}
+
+.project .project-image-link {
+  display: block;
+  margin-left: 50px;
+  width: 45%;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.stack-item,
+.header-button button,
+.project img {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 }

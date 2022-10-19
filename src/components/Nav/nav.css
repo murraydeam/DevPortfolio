@@ -5,20 +5,15 @@
 body {
   background-color: var(--main-bg-color);
 }
-.nav-container {
+.nav-container{
   display: flex;
   flex: 1;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
   color: var(--main-txt-color);
   background-color: var(--main-bg-color);
+  padding: 2rem 4.5rem;
 }
-
-
-
-
-
 
 
 a {
