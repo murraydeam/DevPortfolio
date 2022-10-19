@@ -9,11 +9,12 @@
 }
 
 .header-button button {
-  padding: 12px;
+  padding: 0.6rem;
   font: 400 1rem "open Sans", sans-serif;
   text-transform: uppercase;
   background-color: var(--main-txt-color);
   border: none;
+  border-radius: 25px;
 }
 
 .header-button button a {
