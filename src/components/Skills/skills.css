@@ -1,0 +1,11 @@
+.skills-icons {
+  display: flex;
+  max-width: 400px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-icon {
+  padding: 1.5rem;
+  border-radius: 50px;
+}

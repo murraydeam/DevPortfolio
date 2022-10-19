@@ -18,17 +18,22 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
 }
 .project {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
+#work {
+  gap: 2rem;
+}
+
 .project .project-stack {
   display: flex;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: .8rem;
 }
 
 .stack-item {
@@ -39,7 +44,7 @@ html {
 
 .project .project-image-link {
   display: block;
-  margin-left: 50px;
+  margin-left: 3rem;
   width: 45%;
 }
 
