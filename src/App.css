@@ -10,11 +10,10 @@ html {
 }
 
 .container {
-  width: 80vw;
-  margin: 5vh auto 10vh;
+  width: 90vw;
 }
 .section {
-  margin: 15vh auto 0;
+  margin: 25vh auto 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,6 +48,6 @@ html {
 
 .stack-item,
 .header-button button,
-.project img {
+.project img{
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 }

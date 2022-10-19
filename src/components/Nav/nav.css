@@ -5,25 +5,29 @@
 body {
   background-color: var(--main-bg-color);
 }
-.nav-container{
+.nav-container {
   display: flex;
   flex: 1;
   justify-content: space-between;
   align-items: center;
   color: var(--main-txt-color);
   background-color: var(--main-bg-color);
-  padding: 2rem 4.5rem;
 }
-
 
 a {
   text-decoration: none;
   color: var(--main-txt-color);
 }
 
+.name {
+  font-family: 'League Script', cursive;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+
+
 .nav-items {
   display: flex;
   gap: 8px;
 }
-
-
