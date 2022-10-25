@@ -33,13 +33,13 @@ html {
 .project .project-stack {
   display: flex;
   flex-wrap: wrap;
-  gap: .8rem;
+  gap: .3rem;
 }
 
 .stack-item {
   background-color: aliceblue;
   color: var(--main-bg-color);
-  padding: 0.5rem;
+  padding: 0.5rem .6rem;
 }
 
 .project .project-image-link {
